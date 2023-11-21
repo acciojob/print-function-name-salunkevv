@@ -2,5 +2,9 @@
 function functionName() {
 	alert(arguments.callee.name);
 }
-functionName();
+ functionName();
+function AccioJob() {
+	alert(arguments.callee.name);
+}
+AccioJob();
 
